@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Timekeeping": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7037"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34444,
+      "useSSL": false
+    }
+  }
+}
