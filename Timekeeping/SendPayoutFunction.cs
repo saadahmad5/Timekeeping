@@ -13,7 +13,7 @@ namespace Timekeeping
     public class SendPayoutFunction
     {
         [FunctionName("SendPayouts")]
-        public async Task RunAsync([TimerTrigger("0 8 16 * * *")] TimerInfo myTimer, ILogger log)
+        public async Task RunAsync([TimerTrigger("0 0 18 * * *")] TimerInfo myTimer, ILogger log)
         //public async Task RunAsync([TimerTrigger("0 0 6 * * Fri")] TimerInfo myTimer, ILogger log)
         {
             string commSvcConnStr = Environment.GetEnvironmentVariable("AzureCommServiceConnStr", EnvironmentVariableTarget.Process);
