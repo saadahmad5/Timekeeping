@@ -39,4 +39,4 @@ jobs:
           app-name: 'saad-cna-prj3-fapp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B8D58501F65949939E388BE82E0FC096 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_767FEF0DA72147F08BF66326C0260754 }}
